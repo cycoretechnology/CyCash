@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/Adjust/Adjust.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardCore/IQKeyboardCore.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardNotification/IQKeyboardNotification.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardReturnManager/IQKeyboardReturnManager.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardToolbar/IQKeyboardToolbar.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardToolbarManager/IQKeyboardToolbarManager.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQTextInputViewNotification/IQTextInputViewNotification.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQTextView/IQTextView.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/PKHUD/PKHUDResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit_Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift/Toast-Swift.bundle

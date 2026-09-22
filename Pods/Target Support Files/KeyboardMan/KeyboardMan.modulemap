@@ -1,0 +1,6 @@
+module KeyboardMan {
+  umbrella header "KeyboardMan-umbrella.h"
+
+  export *
+  module * { export * }
+}

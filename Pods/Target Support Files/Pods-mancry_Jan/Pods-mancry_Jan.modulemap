@@ -1,0 +1,6 @@
+module Pods_mancry_Jan {
+  umbrella header "Pods-mancry_Jan-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module IQKeyboardCore {
+  umbrella header "IQKeyboardCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1682D9582F221139000134FD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682D9572F221139000134FD /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1682D95A2F221140000134FD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682D9592F221140000134FD /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1682D95C2F22114B000134FD /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682D95B2F22114B000134FD /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1682D95E2F221158000134FD /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682D95D2F221158000134FD /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1682D9602F221172000134FD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682D95F2F221172000134FD /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C1A4AA9BEE2A802F786CAE97 /* libPods-mancry_Jan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7717CE95E74133DCCCD1DB6D /* libPods-mancry_Jan.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC7E2E82F1FB42700FD6841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC7E2C92F1FB42500FD6841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC7E2D02F1FB42500FD6841;
+			remoteInfo = mancry_Jan;
+		};
+		DBC7E2F22F1FB42700FD6841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC7E2C92F1FB42500FD6841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC7E2D02F1FB42500FD6841;
+			remoteInfo = mancry_Jan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5DC42A149990B7D776FDE4 /* Pods-mancry_Jan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mancry_Jan.release.xcconfig"; path = "Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan.release.xcconfig"; sourceTree = "<group>"; };
+		1682D9572F221139000134FD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1682D9592F221140000134FD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1682D95B2F22114B000134FD /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		1682D95D2F221158000134FD /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		1682D95F2F221172000134FD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		44E56550A6620861EB7E6198 /* Pods-mancry_Jan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mancry_Jan.debug.xcconfig"; path = "Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan.debug.xcconfig"; sourceTree = "<group>"; };
+		7717CE95E74133DCCCD1DB6D /* libPods-mancry_Jan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mancry_Jan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC7E2D12F1FB42500FD6841 /* mancry_Jan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mancry_Jan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC7E2E72F1FB42700FD6841 /* mancry_JanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mancry_JanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC7E2F12F1FB42700FD6841 /* mancry_JanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mancry_JanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DBC7E2F92F1FB42700FD6841 /* Exceptions for "mancry_Jan" folder in "mancry_Jan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DBC7E2D02F1FB42500FD6841 /* mancry_Jan */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DBC7E2D32F1FB42500FD6841 /* mancry_Jan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DBC7E2F92F1FB42700FD6841 /* Exceptions for "mancry_Jan" folder in "mancry_Jan" target */,
+			);
+			path = mancry_Jan;
+			sourceTree = "<group>";
+		};
+		DBC7E2EA2F1FB42700FD6841 /* mancry_JanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = mancry_JanTests;
+			sourceTree = "<group>";
+		};
+		DBC7E2F42F1FB42700FD6841 /* mancry_JanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = mancry_JanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC7E2CE2F1FB42500FD6841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1682D9602F221172000134FD /* WebKit.framework in Frameworks */,
+				1682D95E2F221158000134FD /* AppTrackingTransparency.framework in Frameworks */,
+				1682D95C2F22114B000134FD /* AdServices.framework in Frameworks */,
+				1682D95A2F221140000134FD /* AdSupport.framework in Frameworks */,
+				1682D9582F221139000134FD /* StoreKit.framework in Frameworks */,
+				C1A4AA9BEE2A802F786CAE97 /* libPods-mancry_Jan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC7E2E42F1FB42700FD6841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC7E2EE2F1FB42700FD6841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1914A9204C79F8C9C3267BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E56550A6620861EB7E6198 /* Pods-mancry_Jan.debug.xcconfig */,
+				0C5DC42A149990B7D776FDE4 /* Pods-mancry_Jan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBC7E2C82F1FB42500FD6841 = {
+			isa = PBXGroup;
+			children = (
+				DBC7E2D32F1FB42500FD6841 /* mancry_Jan */,
+				DBC7E2EA2F1FB42700FD6841 /* mancry_JanTests */,
+				DBC7E2F42F1FB42700FD6841 /* mancry_JanUITests */,
+				DBC7E2D22F1FB42500FD6841 /* Products */,
+				D1914A9204C79F8C9C3267BE /* Pods */,
+				F5AE4D1F1EB451FD66463D4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC7E2D22F1FB42500FD6841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC7E2D12F1FB42500FD6841 /* mancry_Jan.app */,
+				DBC7E2E72F1FB42700FD6841 /* mancry_JanTests.xctest */,
+				DBC7E2F12F1FB42700FD6841 /* mancry_JanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5AE4D1F1EB451FD66463D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1682D95F2F221172000134FD /* WebKit.framework */,
+				1682D95D2F221158000134FD /* AppTrackingTransparency.framework */,
+				1682D95B2F22114B000134FD /* AdServices.framework */,
+				1682D9592F221140000134FD /* AdSupport.framework */,
+				1682D9572F221139000134FD /* StoreKit.framework */,
+				7717CE95E74133DCCCD1DB6D /* libPods-mancry_Jan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC7E2D02F1FB42500FD6841 /* mancry_Jan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC7E2FA2F1FB42700FD6841 /* Build configuration list for PBXNativeTarget "mancry_Jan" */;
+			buildPhases = (
+				ED1E806F51BCD94D004F1E63 /* [CP] Check Pods Manifest.lock */,
+				DBC7E2CD2F1FB42500FD6841 /* Sources */,
+				DBC7E2CE2F1FB42500FD6841 /* Frameworks */,
+				DBC7E2CF2F1FB42500FD6841 /* Resources */,
+				F07B41AFF152D335C7635C81 /* [CP] Embed Pods Frameworks */,
+				69C24BB18F9064C4ABDEDD81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DBC7E2D32F1FB42500FD6841 /* mancry_Jan */,
+			);
+			name = mancry_Jan;
+			productName = mancry_Jan;
+			productReference = DBC7E2D12F1FB42500FD6841 /* mancry_Jan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC7E2E62F1FB42700FD6841 /* mancry_JanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC7E2FF2F1FB42700FD6841 /* Build configuration list for PBXNativeTarget "mancry_JanTests" */;
+			buildPhases = (
+				DBC7E2E32F1FB42700FD6841 /* Sources */,
+				DBC7E2E42F1FB42700FD6841 /* Frameworks */,
+				DBC7E2E52F1FB42700FD6841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC7E2E92F1FB42700FD6841 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBC7E2EA2F1FB42700FD6841 /* mancry_JanTests */,
+			);
+			name = mancry_JanTests;
+			productName = mancry_JanTests;
+			productReference = DBC7E2E72F1FB42700FD6841 /* mancry_JanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC7E2F02F1FB42700FD6841 /* mancry_JanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC7E3022F1FB42700FD6841 /* Build configuration list for PBXNativeTarget "mancry_JanUITests" */;
+			buildPhases = (
+				DBC7E2ED2F1FB42700FD6841 /* Sources */,
+				DBC7E2EE2F1FB42700FD6841 /* Frameworks */,
+				DBC7E2EF2F1FB42700FD6841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC7E2F32F1FB42700FD6841 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBC7E2F42F1FB42700FD6841 /* mancry_JanUITests */,
+			);
+			name = mancry_JanUITests;
+			productName = mancry_JanUITests;
+			productReference = DBC7E2F12F1FB42700FD6841 /* mancry_JanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC7E2C92F1FB42500FD6841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DBC7E2D02F1FB42500FD6841 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					DBC7E2E62F1FB42700FD6841 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DBC7E2D02F1FB42500FD6841;
+					};
+					DBC7E2F02F1FB42700FD6841 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DBC7E2D02F1FB42500FD6841;
+					};
+				};
+			};
+			buildConfigurationList = DBC7E2CC2F1FB42500FD6841 /* Build configuration list for PBXProject "mancry_Jan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC7E2C82F1FB42500FD6841;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DBC7E2D22F1FB42500FD6841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC7E2D02F1FB42500FD6841 /* mancry_Jan */,
+				DBC7E2E62F1FB42700FD6841 /* mancry_JanTests */,
+				DBC7E2F02F1FB42700FD6841 /* mancry_JanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC7E2CF2F1FB42500FD6841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC7E2E52F1FB42700FD6841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC7E2EF2F1FB42700FD6841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69C24BB18F9064C4ABDEDD81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1E806F51BCD94D004F1E63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mancry_Jan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07B41AFF152D335C7635C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mancry_Jan/Pods-mancry_Jan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC7E2CD2F1FB42500FD6841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC7E2E32F1FB42700FD6841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC7E2ED2F1FB42700FD6841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC7E2E92F1FB42700FD6841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC7E2D02F1FB42500FD6841 /* mancry_Jan */;
+			targetProxy = DBC7E2E82F1FB42700FD6841 /* PBXContainerItemProxy */;
+		};
+		DBC7E2F32F1FB42700FD6841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC7E2D02F1FB42500FD6841 /* mancry_Jan */;
+			targetProxy = DBC7E2F22F1FB42700FD6841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBC7E2FB2F1FB42700FD6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E56550A6620861EB7E6198 /* Pods-mancry_Jan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mancry_Jan/mancry_Jan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RR7AH92AQR;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mancry_Jan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CyCash;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to complete the necessary identity verification selfie. CyCash is committed to protecting user data security. These photos will not be permanently stored or used for other purposes.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "CyCash would like your permission to access contact information to help strengthen account security protections. Contact information may assist our systems in identifying unusual activities and improving security mechanisms. Any information is used only with your consent and in accordance with our Privacy Policy. You may manage this permission at any time in your device settings.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CyCash needs to access your geographic location to display locally available loan products and amount ranges. Since financial regulatory requirements vary by city, we need to ensure compliant service based on your location.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "CyCash needs access to IDFA-related authorization information to better understand your needs and usage habits, so we can provide more suitable personalized services. This information is used only to improve service-related experiences.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cycore.unique.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = cycoredis;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/mancry_Jan/mac_PublicTools/mancry_Jan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DBC7E2FC2F1FB42700FD6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5DC42A149990B7D776FDE4 /* Pods-mancry_Jan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mancry_Jan/mancry_Jan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RR7AH92AQR;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mancry_Jan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CyCash;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to complete the necessary identity verification selfie. CyCash is committed to protecting user data security. These photos will not be permanently stored or used for other purposes.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "CyCash would like your permission to access contact information to help strengthen account security protections. Contact information may assist our systems in identifying unusual activities and improving security mechanisms. Any information is used only with your consent and in accordance with our Privacy Policy. You may manage this permission at any time in your device settings.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CyCash needs to access your geographic location to display locally available loan products and amount ranges. Since financial regulatory requirements vary by city, we need to ensure compliant service based on your location.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "CyCash needs access to IDFA-related authorization information to better understand your needs and usage habits, so we can provide more suitable personalized services. This information is used only to improve service-related experiences.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cycore.unique.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = cycoredis;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/mancry_Jan/mac_PublicTools/mancry_Jan-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DBC7E2FD2F1FB42700FD6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SSHD9TDJJ9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC7E2FE2F1FB42700FD6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SSHD9TDJJ9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC7E3002F1FB42700FD6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSHD9TDJJ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1004.mancry-JanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mancry_Jan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mancry_Jan";
+			};
+			name = Debug;
+		};
+		DBC7E3012F1FB42700FD6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSHD9TDJJ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1004.mancry-JanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mancry_Jan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mancry_Jan";
+			};
+			name = Release;
+		};
+		DBC7E3032F1FB42700FD6841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSHD9TDJJ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1004.mancry-JanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mancry_Jan;
+			};
+			name = Debug;
+		};
+		DBC7E3042F1FB42700FD6841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSHD9TDJJ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1004.mancry-JanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mancry_Jan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC7E2CC2F1FB42500FD6841 /* Build configuration list for PBXProject "mancry_Jan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC7E2FD2F1FB42700FD6841 /* Debug */,
+				DBC7E2FE2F1FB42700FD6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC7E2FA2F1FB42700FD6841 /* Build configuration list for PBXNativeTarget "mancry_Jan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC7E2FB2F1FB42700FD6841 /* Debug */,
+				DBC7E2FC2F1FB42700FD6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC7E2FF2F1FB42700FD6841 /* Build configuration list for PBXNativeTarget "mancry_JanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC7E3002F1FB42700FD6841 /* Debug */,
+				DBC7E3012F1FB42700FD6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC7E3022F1FB42700FD6841 /* Build configuration list for PBXNativeTarget "mancry_JanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC7E3032F1FB42700FD6841 /* Debug */,
+				DBC7E3042F1FB42700FD6841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC7E2C92F1FB42500FD6841 /* Project object */;
+}

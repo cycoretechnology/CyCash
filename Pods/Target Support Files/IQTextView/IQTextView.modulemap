@@ -1,0 +1,6 @@
+module IQTextView {
+  umbrella header "IQTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

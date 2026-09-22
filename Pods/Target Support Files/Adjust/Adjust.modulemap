@@ -1,0 +1,6 @@
+module AdjustSdk {
+  umbrella header "Adjust-umbrella.h"
+
+  export *
+  module * { export * }
+}

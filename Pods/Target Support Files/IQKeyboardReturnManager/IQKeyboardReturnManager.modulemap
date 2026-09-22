@@ -1,0 +1,6 @@
+module IQKeyboardReturnManager {
+  umbrella header "IQKeyboardReturnManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

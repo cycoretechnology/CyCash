@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>juanhand</string>
+		<string>cashalo</string>
+		<string>hcphapp</string>
+		<string>billease</string>
+		<string>apaylater</string>
+		<string>skyro</string>
+		<string>pesoloan</string>
+		<string>gcash</string>
+		<string>paymaya</string>
+		<string>gotyme</string>
+		<string>paypal</string>
+		<string>bpiRuby</string>
+		<string>unionbank</string>
+		<string>com.rcbc.mobile.sit</string>
+		<string>landbank</string>
+		<string>seabankph</string>
+		<string>tonikapp</string>
+		<string>Cashola</string>
+		<string>joyridesuperapp</string>
+		<string>foodpanda</string>
+		<string>globeone</string>
+		<string>gigalife</string>
+		<string>shadowrocket</string>
+		<string>egovphverifyemail</string>
+		<string>whatsapp</string>
+		<string>barcelona</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
